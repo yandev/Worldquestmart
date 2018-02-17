@@ -1,0 +1,51 @@
+.Signup{
+    font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+    font-weight: 200;
+    letter-spacing: 1px;
+    background-color: white;
+    background: url("../img/bg-pattern.png");
+    
+  
+  }
+  .signin_labels{
+    width: 184px;
+    font-weight: 600;
+    text-align: left;
+  }
+  .container-fluid{
+    text-align: center;
+    font-size: 120%;
+    width: fit-content;
+    padding: 20px;
+    border: 1px solid #7b4397;
+    border-radius: 3px;
+  }
+
+  #Signup_btn{
+    width: 100%;
+    background-color: #7b4397;
+border-radius: 12px;
+  }
+
+  #Signup_btn:hover{
+    
+    background-color: #a842a3;
+
+  }
+  .usertype{
+    font-size:100%;
+    text-align: left;
+  }
+  
+
+  @media (max-width: 500px) {
+    .signin_labels {
+      display: none;
+    }
+    .usertype{
+      font-size: 88%;
+      font-weight: 400;
+      text-align: left;
+    }
+  }
+  
