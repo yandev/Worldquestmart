@@ -2,6 +2,16 @@
     "use strict"; // Start of use strict
  
 
+    $("#email").keyup(function(){
+
+
+        var value = ($("#email").val().trim()).match("/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/1/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/")
+            alert(value);
+
+            
+        });
+    
+    
 
 
 $("#Signup_btn").on("click", function(){
